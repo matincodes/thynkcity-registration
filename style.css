@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/road-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    padding-top: 50px;
+    width: 250px;
+}
+
+.logo img{
+    width: inherit;
+}
+
+.primary__heading{
+    color: #aa772d; 
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 45px;
+    margin: 35px 0;
+}
+
+.primary__heading span{
+    display: inline-block;
+    width: 100%;
+}
+
+.button__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 15px 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 4px solid #aa772d;
+    text-decoration: none;
+    color: #aa772d;
+    font-size: 20px;
+}
+
+.arrow__link{
+    width: 70px;
+    padding: 20px 0;
+}
+.arrow{
+    width: inherit;
+}
+
+.registration__form{
+    overflow: hidden;
+}
+
+.registration__form iframe{
+    width: 390px;
+    height:2500px;
+}

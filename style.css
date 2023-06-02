@@ -31,7 +31,7 @@
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 45px;
-    margin: 35px 0;
+    margin: 30px 0;
 }
 
 .primary__heading span{
@@ -57,7 +57,7 @@
 
 .arrow__link{
     width: 70px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .arrow{
     width: inherit;
@@ -70,4 +70,20 @@
 .registration__form iframe{
     width: 390px;
     height:2500px;
+}
+
+.social-media{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.social-media i{
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width){
+
 }
